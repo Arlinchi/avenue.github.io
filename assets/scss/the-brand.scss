@@ -1,0 +1,39 @@
+#brand{
+    h2{
+        color: #575153!important;
+    }
+    p{
+        color: #575153!important;
+        font-weight: 500;
+        font-size: 95%;
+    }
+    .bold{
+        font-weight: 600!important;
+    }
+}
+.text-hover{
+    color: #08c8c8;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px){
+    .appear-at{
+        display: block!important;
+    }
+    .dissapear-at{
+        display: none!important;
+    }
+    #brand{
+        text-align: center;
+    }
+    .shop-button{
+        padding: 25px 20px!important;
+        button{
+            align-items: center;
+           p{
+               margin: 0;
+           }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+$color-secundario: #f8f8f8;
+$color-p: #8e8c8c;
+$color-subtitulo: #727272;
+$color-subtitulo1: #575153;
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.btn-view {
+  padding: 18px 25px;
+  letter-spacing: 3px;
+  border-radius: 0;
+  color: $color-subtitulo1;
+  border: 2px solid $color-subtitulo1;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.btn-view:hover {
+  background-color: #00c8c8;
+  border-color: white;
+}
+.map {
+  background-color: $color-secundario;
+}
+.card-body {
+  p {
+    color: $color-p;
+    line-height: 24px;
+    font-size: 150%;
+  }
+  h5 {
+    color: $color-subtitulo1;
+    font-size: 170%;
+  }
+  h6 {
+    color: $color-subtitulo;
+  }
+}
+p.card-text{
+    font-size: 80%;
+  }
+.margen-custom {
+  padding-left: 40px;
+}
+.redes {
+  i {
+    color: #727272;
+  }
+}
+.map-info{
+    font-size: 70%;
+    color: $color-p;
+}

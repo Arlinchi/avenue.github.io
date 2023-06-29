@@ -1,0 +1,52 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-view {
+  padding: 18px 25px;
+  letter-spacing: 3px;
+  border-radius: 0;
+  color: #575153;
+  border: 2px solid #575153;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.btn-view:hover {
+  background-color: #00c8c8;
+  border-color: white;
+}
+
+.map {
+  background-color: #f8f8f8;
+}
+
+.card-body p {
+  color: #8e8c8c;
+  line-height: 24px;
+  font-size: 150%;
+}
+.card-body h5 {
+  color: #575153;
+  font-size: 170%;
+}
+.card-body h6 {
+  color: #727272;
+}
+
+p.card-text {
+  font-size: 80%;
+}
+
+.margen-custom {
+  padding-left: 40px;
+}
+
+.redes i {
+  color: #727272;
+}
+
+.map-info {
+  font-size: 70%;
+  color: #8e8c8c;
+}

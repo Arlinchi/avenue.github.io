@@ -1,0 +1,73 @@
+$hover-color: #00c8c8;
+.bold{
+    color: #575153;
+}
+.button {
+  background: #fff;
+  border: 1px solid #575153;
+  color: #575153;
+  padding: 12px 25px;
+  letter-spacing: 2px;
+}
+.button:hover {
+  background-color: $hover-color;
+  color: #fff;
+  border-color: $hover-color;
+}
+.text-custom-p{
+    width: 45%;
+}
+.text-custom{
+    color: $hover-color;
+    text-decoration: none;
+}
+.text-custom:hover{
+    color: $hover-color;
+}
+.r-fix{
+    .active{
+        color: $hover-color;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .text-custom-p{
+        margin: 10px 0 0 0;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .responsive-fix{
+        padding: 0!important;
+        border: none!important;
+    }
+    .shop-button{
+        padding: 25px 20px!important;
+        button{
+            align-items: center;
+           p{
+               margin: 0;
+           }
+        }
+    }
+    .text-custom-p{
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 425px){
+    .responsive-fix{
+        width: 95%;
+        margin: auto;
+    }
+    .text-custom-p{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .text-custom{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .button{
+        width: 100%;
+    }
+}
+
